@@ -8,6 +8,11 @@ output "name" {
   description = "The name of the resource group"
 }
 
+output "resource_group_name" {
+  value       = var.name
+  description = "The name of the resource group"
+}
+
 output "location" {
   value       = var.location
   description = "The location where the resource group was created."
