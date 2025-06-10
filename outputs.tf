@@ -15,5 +15,6 @@ output "resource_group_name" {
 
 output "location" {
   value       = var.location
+  sensitive = true
   description = "The location where the resource group was created."
 }
